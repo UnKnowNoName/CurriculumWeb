@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="src/styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Formulario CV</h1>
+    </header>
+
+    <form action="submit" method="post">
+        <section>
+            <div>
+                <h2>Datos Personales</h2>
+                <label for="nombre">Nombre: </label><br />
+                <input type="text" name="nombre" id="i_nombre" placeholder="Nombre"><br />
+                <label for="apellido">Apellido: </label><br />
+                <input type="text" name="apellido" id="i_apellido" placeholder="Apellido"><br />
+                <label for="pais">Pais: </label><br />
+                <input type="text" name="pais" id="i_pais"placeholder="País"><br />
+                <label for="region">Region: </label><br />
+                <input type="text" name="region" id="i_region"placeholder="Región"><br />
+                <label for="codigoPostal">Codigo Postal: </label><br />
+                <input type="number" name="codigoPostal"id="i_codigoPostal" placeholder="Código Postal"><br />
+                <label for="direccion">Direccion: </label><br />
+                <input type="text" name="direccion" id="i_direccion" placeholder="Dirección"><br />
+                <label for="perfil">Foto: </label><br />
+                <input type="file" name="perfil" id="i_perfil" 
+                accept="image/gif,image/jpeg,image/jpg,image/png">
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Datos de Contacto</h2>
+                <label for="celular">Celular: </label><br />
+                <input type="tel" name="celular" id="i_celular" placeholder="Celular"><br />
+                <label for="correo">Correo: </label><br />
+                <input type="email" name="correo" id="i_correo" placeholder="Correo"><br />
+                <label for="linkedin">LinkedIn: </label><br />
+                <input type="search" name="linkedin" id="i_linkedin" placeholder="LinkedIn"><br />
+                <label for="github">GitHub: </label><br />
+                <input type="search" name="github" id="i_github" placeholder="GitHub"><br />
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Perfil profesional</h2>
+                <label for="perfilProfesional">Redacte brevemente un resumen de su perfil profesional.</label><br />
+                <textarea name="perfilProfesional" id="i_perfilProfesional" cols="45" rows="10" 
+                placeholder="Perfil profesional..."></textarea><br />
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Aptitudes</h2>
+                <label for="aptitudes">Redacte brevemente algunas de sus aptitudes</label><br />
+                <input type="text" name="aptitudes" placeholder="Aptitud 01"><br />
+                <input type="text" name="aptitudes" placeholder="Aptitud 02"><br />
+                <input type="text" name="aptitudes" placeholder="Aptitud 03"><br />
+                <input type="text" name="aptitudes" placeholder="Aptitud 04"><br />
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Software</h2>
+                <label for="software">Redacte algunos de los software que domina actualmente</label><br />
+                <input type="text" name="software" placeholder="Software 01"><br />
+                <input type="text" name="software" placeholder="Software 02"><br />
+                <input type="text" name="software" placeholder="Software 03"><br />
+                <input type="text" name="software" placeholder="Software 04"><br />
+                <input type="text" name="software" placeholder="Software 05"><br />
+                <input type="text" name="software" placeholder="Software 06"><br />
+                <input type="text" name="software" placeholder="Software 07"><br />
+                <input type="text" name="software" placeholder="Software 08"><br />
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Idiomas</h2>
+                <label for="idiomaNativo">Ingrese su idioma nativo: </label><br />
+                <input type="text" name="idiomaNativo" id="i_idiomaNativo" placeholder="Idioma nativo"><br />
+                <label for="idiomas">Ingrese algún idioma adicional que maneje: </label><br />
+                <input type="text" name="idioma" id="i_idioma" placeholder="idioma"><br />
+                <label for="nivelIdioma">Ingrese el nivel de manejo que tiene sobre el idioma: </label><br />
+                <select name="nivelIdioma" id="nivelIdioma">
+                    <option value="basico">Basico</option>
+                    <option value="basicoAlto">Basico alto</option>
+                    <option value="intermedio">Intermedio</option>
+                    <option value="intermedioAlto">Intermedio alto</option>
+                    <option value="avanzado">Avanzado</option>
+                    <option value="avanzadoAlto">Avanzado Alto</option>
+                    <option value="experto">Experto</option>
+                </select><br />
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Experiencia Laboral</h2>
+                <label for="nombreEmpresa">Indique el nombre de la empresa: </label><br />
+                <input type="text" name="nombreEmpresa" id="i_nombreEmpresa" placeholder="Nombre"><br />
+                <label for="ciudadEmpresa">Indique la ciudad donde esta ubicada la empresa: </label><br />
+                <input type="text" name="ciudadEmpresa" id="i_ciudadEmpresa" placeholder="Ciudad"><br />
+                <label for="descripcionEmpresa">Redacte una descripcion para la empresa: </label><br />
+
+                <textarea name="descripcionEmpresa" id="i_descripcionEmpresa" placeholder="Descripcion"
+                cols="45" rows="10" ></textarea>
+                <br />
+                <label for="cargoEmpresa">Indique su cargo en la empresa: </label><br />
+                <input type="text" name="cargoEmpresa" id="i_cargoEmpresa" placeholder="Cargo"><br />
+                <label for="funcionesEmpresa">Redacte algunas de sus funciones dentro de la empresa: </label><br />
+                <input type="text" name="funcionesEmpresa" placeholder="Funcion 01"><br />
+                <input type="text" name="funcionesEmpresa" placeholder="Funcion 02"><br />
+                <input type="text" name="funcionesEmpresa" placeholder="Funcion 03"><br />
+                <input type="text" name="funcionesEmpresa" placeholder="Funcion 04"><br />
+                <input type="text" name="funcionesEmpresa" placeholder="Funcion 05"><br />
+                <input type="text" name="funcionesEmpresa" placeholder="Funcion 06"><br />
+                <input type="text" name="funcionesEmpresa" placeholder="Funcion 07"><br />
+                <input type="text" name="funcionesEmpresa" placeholder="Funcion 08"><br />
+                <label for="desdeEmpresa">Indique la fecha en la que inició labores en la empresa: </label><br />
+                <input type="date" name="desdeEmpresa" id="i_desdeEmpresa"><br />
+                <label for="hastaEmpresa">Indique la fecha en la que finalizó labores en la empresa: </label><br />
+                <input type="date" name="hastaEmpresa" id="i_hastaEmpresa"><br />
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Formación Academica</h2>
+                <label for="nombreFormacion">Indique el nombre del centro de estudios: </label><br />
+                <input type="text" name="nombreFormacion" id="i_nombreFormacion" placeholder="Nombre"><br />
+                <label for="ciudadFormacion">Indique la ciudad donde esta ubicado el centro de estudios: </label><br />
+                <input type="text" name="ciudadFormacion" id="i_ciudadFormacion" placeholder="Ciudad"><br />
+                <label for="carreraFormacion">Indique la carrera que cursó: </label><br />
+                <input type="text" name="carreraFormacion" id="i_carreraFormacion" placeholder="Carrera"><br />
+                <label for="desdeFormacion">Indique la fecha en la que inició estudios: </label><br />
+                <input type="date" name="desdeFormacion" id="i_desdeFormacion"><br />
+                <label for="hastaFormacion">Indique la fecha en la que finalizó estudios: </label><br />
+                <input type="date" name="hastaFormacion" id="i_hastaFormacion"><br />
+            </div>
+        </section>
+
+        <br />
+        <section id="button">
+            <button type="submit">Generar</button>
+        </section>
+
+    </form>
+
+    <footer>
+        <div>
+            <h2>Generador de Curriculum</h2>
+            <p>
+                Con esta herramienta puedes realizar tu curriculum simplemente llenando formularios.<br/>
+            </p>
+        </div>
+        <div>
+            <h2>Editor:</h2>
+            <div>
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/jhonatan-bazo/">
+                    <img class="img" src="../src/icons/linkedin.svg" alt="LinkedIn">
+                </a>
+            </div>
+            <div>
+                <h3>GitHub</h3>
+                <a href="https://github.com/UnKnowNoName">
+                    <img class="img" src="../src/icons/github.svg" alt="GitHub">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

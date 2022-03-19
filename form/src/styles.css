@@ -1,0 +1,81 @@
+body {
+  margin: 0px;
+  width: 96%;
+}
+body header {
+  width: 100%;
+  padding: 2%;
+  background-color: #77767c;
+}
+body header h1 {
+  text-align: center;
+  color: #fff1ff;
+  font-size: 500%;
+}
+body form {
+  width: 100%;
+  padding: 2%;
+  background-color: #e2e2e2;
+  color: #191934;
+}
+body form section div {
+  padding: 5% 0 0 7%;
+}
+body form section div h2 {
+  font-style: oblique;
+  border-bottom: 1px solid;
+  width: auto;
+}
+body form section div label {
+  float: left;
+}
+body form section div input {
+  margin-left: 15px;
+}
+body form section div textarea {
+  margin-left: 15px;
+}
+body form #button {
+  padding: 0 50%;
+}
+body form #button button {
+  background-color: #191934;
+  color: #fff1ff;
+  border-radius: 20%;
+  font-size: 150%;
+  width: 200px;
+  height: 50px;
+}
+body footer {
+  width: 100%;
+  height: 225px;
+  padding: 2%;
+  background-color: #77767c;
+}
+body footer div {
+  width: 40%;
+  padding: 0 5% 0;
+  float: left;
+}
+body footer div h2 {
+  color: #fff1ff;
+  text-align: center;
+}
+body footer div h3 {
+  text-align: center;
+}
+body footer div p {
+  padding: 15px;
+  border-radius: 15%;
+  background-color: #cecfff;
+}
+body footer div a img {
+  width: 50px;
+  margin: 0 36%;
+}
+body footer div a img:hover {
+  background-color: #cecfff;
+  border-radius: 10%;
+}
+
+/*# sourceMappingURL=styles.css.map */

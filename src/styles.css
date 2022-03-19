@@ -72,8 +72,11 @@ body section #encabezado div div {
   padding: 0 2%;
   line-height: 100%;
 }
-body section #encabezado p {
+body section #encabezado div div p {
   font-size: medium;
+}
+body section #encabezado div div img {
+  width: 16px;
 }
 
 /*# sourceMappingURL=styles.css.map */

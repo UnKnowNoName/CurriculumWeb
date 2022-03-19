@@ -1,2 +1,4 @@
 ./src/styles.scss
 ./src/styles.css.map
+./form/src/styles.scss
+./form/src/styles.css.map
