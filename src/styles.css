@@ -1,0 +1,79 @@
+body {
+  margin: 0px;
+  width: unset;
+  height: 296.9mm;
+}
+body .material-icons-outlined {
+  font-family: "Material Icons";
+}
+body hr {
+  height: 1px;
+  background-color: black;
+}
+body aside {
+  margin: 0px;
+  padding: 0px;
+  background-color: #668191;
+  width: 30%;
+  color: azure;
+  float: left;
+  height: 100%;
+}
+body aside div {
+  margin: 0 10%;
+  width: 80%;
+  border-top: 1px solid black;
+}
+body aside div #foto_perfil {
+  width: 75%;
+  border-radius: 50%;
+  margin-bottom: 10%;
+  margin-top: 15%;
+  margin-left: 12.5%;
+}
+body aside div h1 {
+  font-size: medium;
+  font-weight: normal;
+}
+body aside div .p_perfil {
+  text-align: justify;
+}
+body section {
+  float: left;
+  margin: 0px;
+  width: 67%;
+  padding-left: 3%;
+  height: 95%;
+  margin-top: 4%;
+}
+body section #encabezado {
+  width: 100%;
+  float: left;
+}
+body section #encabezado h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 285%;
+  letter-spacing: 10px;
+  text-align: center;
+}
+body section #encabezado #nombre {
+  color: #668191;
+}
+body section #encabezado div {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+body section #encabezado div div {
+  float: left;
+  margin: 0%;
+  width: 43%;
+  padding: 0 2%;
+  line-height: 100%;
+}
+body section #encabezado p {
+  font-size: medium;
+}
+
+/*# sourceMappingURL=styles.css.map */
